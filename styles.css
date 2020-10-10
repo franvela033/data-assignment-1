@@ -1,0 +1,146 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  margin: 10px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+
+.header {
+  background: #FFEAC8;
+  height: 160px;
+  font-family: serif;
+}
+
+.info{
+  background: #FFEAC8;
+  height: 150px;
+  font-size: 18px;
+  font-family: serif;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: left;
+}
+.footer {
+  background: #FFEAC8;
+  height: 200px;
+  justify-content: center;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.main {
+  text-align: left;
+  background: #FFEAC8;
+  height: 200px;
+  font-size: 18px;
+}
+
+.shelter {
+  background: #FFEAC8;
+  text-align: center;
+  border-radius: 20px;
+  border-right: 1px;
+  padding-top: 5px;
+  padding-bottom: 150px;
+  padding-left: 2px;
+  padding-right: 15px;
+  height: 50px;
+  width: 20px;
+  font-size: 18px;
+}
+.container {
+  display: flex;
+  height: 125px;
+  align-items: left;
+  justify-content: left;
+}
+img {
+  max-width: 100%;
+}
+.img-col{
+  flex-basis: 20%;
+
+}
+.employment{
+  background: #FFEAC8;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  height: 300px;
+  width: 2000px;
+  font-size: 18px;
+}
+.container2{
+  display: Flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  text-align: left;
+  font-size: 18px;
+  align-items: left;
+
+}
+.healthcare {
+  background: #FFEAC8;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 180px;
+  padding-left: 1px;
+  padding-right: 1px;
+  height: 140px;
+  width: 1200px;
+  font-size: 18px;
+
+}
+.container3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+
+}
+.sources{
+  background: #FFEAC8;
+  text-align: center;
+  height: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media all and (min-width: 800px){
+  .main{
+    flex: 3;
+  }
+
+.aside1{
+  order: 1;
+  }
+
+.aside2{
+  order: 2;
+  }
+
+.main {
+  order: 2;
+  }
+
+.footer {
+  order: 4;
+  }
+}
+
+@media all and (min-width: 600px){
+  .aside {
+    flex: 1;
+  }
+}
